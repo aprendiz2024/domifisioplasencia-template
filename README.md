@@ -1,6 +1,6 @@
 # LocalServi Template — Plantilla Web para Negocios de Servicios Locales
 
-**Autoría:** Ascensión — Consultora Web y Digital, Plasencia (Cáceres), España  
+**Autoría:** Ascensión Márquez Gutiérrez —, Plasencia (Cáceres), España  
 **Fecha de creación:** Enero 2026  
 **Licencia:** Uso bajo solicitud — Contacto directo para adaptación personalizada
 
@@ -171,7 +171,7 @@ Esta plantilla **no se vende como producto descargable**. Se ofrece como base pa
 
 Para solicitar adaptación de esta plantilla para tu negocio o proyecto:
 
-- **LinkedIn:** Ascensión — Consultora Web y Digital
+- **LinkedIn:** Ascensión Márquez Gutiérrez
 - **Ubicación:** Plasencia, Cáceres, Extremadura, España
 - **Especialidad:** Sitios web para negocios locales, emprendedores y proyectos sociales
 
@@ -183,4 +183,4 @@ El código, diseño y estructura de esta plantilla son obra original de su autor
 El sitio web de DomiFisio Plasencia fue el proyecto base sobre el que se desarrolló esta plantilla.  
 Todos los derechos reservados. Uso, copia o distribución sin autorización expresa está prohibida.
 
-© 2026 — Ascensión, Plasencia, España
+© 2026 — Ascensión Márquez Gutiérrez, Plasencia, España
