@@ -1,6 +1,6 @@
-# LocalServi Template — Plantilla Web para Negocios de Servicios Locales
 
-**Autoría:** Ascensión Márquez Gutiérrez —, Plasencia (Cáceres), España  
+# DomiFisio Plasencia — Código fuente del sitio web
+## Autoría: Ascensión Márquez Gutiérrez, Plasencia (Cáceres), España
 **Fecha de creación:** Enero 2026  
 **Licencia:** Uso bajo solicitud — Contacto directo para adaptación personalizada
 
