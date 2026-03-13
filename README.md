@@ -170,7 +170,7 @@ Esta plantilla **no se vende como producto descargable**. Se ofrece como base pa
 
 Para solicitar adaptación de esta plantilla para tu negocio o proyecto:
 
-- **LinkedIn:** Ascensión Márquez Gutiérrez — Consultora Web y Digital
+- **LinkedIn:** Ascensión Márquez Gutiérrez 
 - **Ubicación:** Plasencia, Cáceres, Extremadura, España
 - **Especialidad:** Sitios web para negocios locales, emprendedores y proyectos sociales
 
