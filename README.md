@@ -1,33 +1,37 @@
+# DomiFisio Plasencia — Código fuente del sitio web y base de plantilla para servicios locales
 
-# DomiFisio Plasencia — Código fuente del sitio web
-## Autoría: Ascensión Márquez Gutiérrez, Plasencia (Cáceres), España
-**Fecha de creación:** Enero 2026  
+**Autoría:** Ascensión Márquez Gutiérrez — Consultora Web y Digital, Plasencia (Cáceres), España  
+**Fecha de desarrollo:** Octubre 2025 – Enero 2026  
+**Fecha de publicación en producción:** Enero 2026 (servidor Hostinger, domifisioplasencia.com)  
+**Fecha de publicación en este repositorio:** Marzo 2026  
 **Licencia:** Uso bajo solicitud — Contacto directo para adaptación personalizada
 
 ---
 
-## 🏗️ Origen de esta plantilla y autoría del sitio domifisioplasencia.com
+## Autoría del sitio domifisioplasencia.com
 
-Esta plantilla fue desarrollada íntegramente por **Ascensión** (Plasencia, Cáceres, España) como parte del proyecto **DomiFisio Plasencia**, cuyo sitio web se encuentra en producción en [domifisioplasencia.com](https://domifisioplasencia.com).
+Este repositorio contiene el código fuente del sitio web **[domifisioplasencia.com](https://domifisioplasencia.com)**, desarrollado íntegramente por **Ascensión Márquez Gutiérrez** (Plasencia, Cáceres, España).
 
-El trabajo de desarrollo comenzó en **enero de 2026** e incluyó:
+El trabajo de desarrollo comenzó en **octubre de 2025** e incluyó:
 
+- Estrategia SEO local, elección de dominio y definición de la marca "DomiFisio"
 - Diseño y maquetación completa en HTML/CSS/JavaScript puro, sin CMS ni frameworks
 - Estructura de páginas: inicio, servicios individuales, aviso legal, política de privacidad y condiciones del servicio
 - Implementación de Schema.org JSON-LD (`Physiotherapy`, `OfferCatalog`) para SEO local
 - Configuración de geo tags, Open Graph, robots.txt y sitemap.xml
 - Integración de botones de llamada y WhatsApp con mensajes predefinidos por servicio
 - Diseño responsive mobile-first con header fijo, menú hamburguesa y botones flotantes
-- Adaptación del contenido textual, estructura SEO y páginas legales conforme a la normativa española (RGPD, LSSI)
+- Adaptación de contenido textual, estructura SEO y páginas legales conforme a normativa española (RGPD, LSSI)
 - Resolución de incidencias técnicas: inyección de scripts de Kaspersky, rechazo de Google Business Profile, CLS y velocidad de carga
 - Gestión de Google Search Console, sitemap e indexación
+- Publicación en servidor Hostinger en enero de 2026
 
 **El código, diseño, estructura y contenido de domifisioplasencia.com son obra original de su autora.**  
-Esta plantilla es la generalización y documentación pública de ese trabajo original, publicada en este repositorio el **13 de marzo de 2026** como registro de autoría.
+Esta plantilla es la generalización y documentación pública de ese trabajo, publicada en este repositorio en marzo de 2026 como registro de autoría.
 
 ### Evidencias de autoría disponibles
 
-- Conversaciones de desarrollo fechadas desde enero de 2026
+- Conversaciones de desarrollo con IA fechadas desde **octubre 2025** (estrategia SEO, elección de dominio, diseño de landing page, integración WhatsApp Business, Google My Business, GeneratePress Premium, Google Search Console, etc.)
 - Historial de commits de este repositorio
 - Capturas del sitio en producción incluidas en la carpeta `/screenshots`
 - Archivos fuente originales del proyecto
@@ -42,17 +46,17 @@ Desarrollada originalmente para **DomiFisio Plasencia** (fisioterapia a domicili
 
 ---
 
-## ✨ Característica diferencial
+## Característica diferencial
 
 ### Botones Llamar + WhatsApp por cada servicio
 
 Cada tarjeta de servicio incluye **dos botones de contacto inmediato**:
 
-- 📞 **Llamar** — enlace directo `tel:` al número del negocio
-- 💬 **WhatsApp** — mensaje predefinido y personalizado para ese servicio concreto
+- **Llamar** — enlace directo `tel:` al número del negocio
+- **WhatsApp** — mensaje predefinido y personalizado para ese servicio concreto
 
 ```html
-<!-- Ejemplo: el botón WhatsApp abre un mensaje ya escrito -->
+<!-- El botón WhatsApp abre un mensaje ya escrito -->
 <a href="https://wa.me/34XXXXXXXXX?text=Hola,%20quiero%20información%20sobre%20*Fisioterapia%20Manual%20a%20Domicilio*">
   WhatsApp
 </a>
@@ -67,13 +71,13 @@ El usuario no tiene que pensar qué escribir. Pulsa y el mensaje ya está redact
 ## 📁 Estructura del repositorio
 
 ```
-localservi-template/
+domifisioplasencia-template/
 ├── index.html                              # Página principal con las tarjetas de servicios
-├── fisioterapia-manual-domicilio.html      # Ejemplo: página individual de servicio 1
-├── rehabilitacion-movilidad-domicilio.html # Ejemplo: página individual de servicio 2
-├── ejercicio-terapeutico-domicilio.html    # Ejemplo: página individual de servicio 3
-├── entrenamiento-personal-domicilio.html   # Ejemplo: página individual de servicio 4
-├── pilates-plasencia.html                  # Ejemplo: página individual de servicio 5
+├── fisioterapia-manual-domicilio.html      # Página individual de servicio 1
+├── rehabilitacion-movilidad-domicilio.html # Página individual de servicio 2
+├── ejercicio-terapeutico-domicilio.html    # Página individual de servicio 3
+├── entrenamiento-personal-domicilio.html   # Página individual de servicio 4
+├── pilates-plasencia.html                  # Página individual de servicio 5
 │
 ├── aviso-legal.html                        # Aviso Legal (RGPD, España)
 ├── politica-privacidad.html                # Política de privacidad
@@ -92,10 +96,7 @@ localservi-template/
 ├── web-app-manifest-512x512.png
 │
 ├── images/                                 # Carpeta de imágenes del negocio
-│   └── README.md                           # Instrucciones para las imágenes
-│
-└── screenshots/                            # Capturas del sitio en producción
-    ├── README.md                           # Fecha de captura: marzo 2026, domifisioplasencia.com
+└── screenshots/                            # Capturas del sitio en producción (marzo 2026)
     ├── inicio.png
     ├── fisioterapia-manual-domicilio.png
     ├── rehabilitacion-movilidad-domicilio.png
@@ -106,7 +107,7 @@ localservi-template/
 
 ---
 
-## 🔧 Qué incluye técnicamente
+##  Qué incluye técnicamente
 
 ### SEO Local avanzado
 - Schema.org JSON-LD completo: `LocalBusiness`, `Physiotherapy` (adaptable a `HairSalon`, `BeautySalon`, `SportsActivityLocation`, etc.)
@@ -135,9 +136,7 @@ localservi-template/
 
 ---
 
-## 🎨 Adaptable a cualquier sector
-
-Esta plantilla ha sido diseñada para adaptarse con cambios mínimos a:
+## Adaptable a cualquier sector
 
 | Sector | Schema.org @type | Cambios necesarios |
 |--------|------------------|--------------------|
@@ -152,7 +151,7 @@ Esta plantilla ha sido diseñada para adaptarse con cambios mínimos a:
 
 ---
 
-## 💼 Modelo de uso
+## Modelo de uso
 
 Esta plantilla **no se vende como producto descargable**. Se ofrece como base para un **servicio personalizado**:
 
@@ -167,20 +166,20 @@ Esta plantilla **no se vende como producto descargable**. Se ofrece como base pa
 
 ---
 
-## 📞 Contacto
+## Contacto
 
 Para solicitar adaptación de esta plantilla para tu negocio o proyecto:
 
-- **LinkedIn:** Ascensión Márquez Gutiérrez
+- **LinkedIn:** Ascensión Márquez Gutiérrez — Consultora Web y Digital
 - **Ubicación:** Plasencia, Cáceres, Extremadura, España
 - **Especialidad:** Sitios web para negocios locales, emprendedores y proyectos sociales
 
 ---
 
-## ⚖️ Propiedad intelectual
+## Propiedad intelectual
 
-El código, diseño y estructura de esta plantilla son obra original de su autora.  
-El sitio web de DomiFisio Plasencia fue el proyecto base sobre el que se desarrolló esta plantilla.  
+El código, diseño y estructura de esta plantilla son obra original de su autora, desarrollada entre octubre 2025 y enero 2026.  
+El sitio web de DomiFisio Plasencia fue el proyecto original sobre el que se desarrolló esta plantilla.  
 Todos los derechos reservados. Uso, copia o distribución sin autorización expresa está prohibida.
 
 © 2026 — Ascensión Márquez Gutiérrez, Plasencia, España
