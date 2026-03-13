@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fisioterapia manual a domicilio en Plasencia. Masaje terapéutico, movilización articular y técnicas miofasciales para aliviar el dolor. Especialistas en mayores.">
+    <meta name="keywords" content="fisioterapia manual domicilio plasencia, terapia manual a domicilio plasencia, masaje terapéutico domicilio plasencia, fisioterapeuta domicilio plasencia, tratamiento dolor muscular casa plasencia, fisioterapia contracturas domicilio, masaje descontracturante plasencia domicilio, fisioterapia dolor espalda casa, terapia manual caceres domicilio">
+    <title>Fisioterapia Manual a Domicilio en Plasencia | DomiFisio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <link rel="canonical" href="https://domifisioplasencia.com/fisioterapia-manual-domicilio.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Fisioterapia Manual a Domicilio en Plasencia | DomiFisio">
+    <meta property="og:description" content="Masaje terapéutico y terapia manual a domicilio en Plasencia. Tratamiento del dolor muscular y contracturas en tu hogar.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://domifisioplasencia.com/fisioterapia-manual-domicilio.html">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:image" content="https://domifisioplasencia.com/images/logotipo.webp">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="ES-CC">
+    <meta name="geo.placename" content="Plasencia, Cáceres">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Fisioterapia Manual a Domicilio",
+        "name": "Fisioterapia Manual a Domicilio en Plasencia",
+        "description": "Servicio de fisioterapia manual a domicilio en Plasencia. Masaje terapéutico, movilización articular y técnicas miofasciales para aliviar el dolor.",
+        "provider": {
+            "@type": "Physiotherapy",
+            "name": "DomiFisio Plasencia",
+            "telephone": "+34622956851",
+            "url": "https://domifisioplasencia.com"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Plasencia"
+        }
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #a85442;
+            --primary-dark: #8b4235;
+            --text-dark: #2d2d2d;
+            --text-light: #666;
+            --bg-light: #faf8f6;
+            --white: #ffffff;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1001;
+            padding: 10px 20px;
+            transition: transform 0.3s ease;
+        }
+        .site-header.hidden { transform: translateY(-100%); }
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img { height: 50px; width: auto; }
+        .header-phone {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.3s ease;
+        }
+        .header-phone:hover { background: var(--primary-dark); }
+        .header-phone svg { width: 16px; height: 16px; }
+        main { padding-top: 80px; }
+        .service-hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .service-hero h1 { font-size: 2.2rem; margin-bottom: 15px; }
+        .service-hero p { font-size: 1.1rem; opacity: 0.95; max-width: 700px; margin: 0 auto; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.9rem; opacity: 0.8; }
+        .breadcrumb a { color: var(--white); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .content-section { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+        .content-section h2 { color: var(--primary); font-size: 1.8rem; margin-bottom: 20px; }
+        .content-section h3 { color: var(--text-dark); font-size: 1.3rem; margin: 25px 0 15px; }
+        .content-section p { color: var(--text-light); margin-bottom: 15px; }
+        .content-section ul { list-style: none; margin: 20px 0; }
+        .content-section li { padding: 10px 0 10px 30px; position: relative; color: var(--text-light); }
+        .content-section li::before { content: "✓"; position: absolute; left: 0; color: var(--primary); font-weight: bold; }
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin: 30px 0; }
+        .benefit-card { background: var(--bg-light); padding: 25px; border-radius: 10px; text-align: center; }
+        .benefit-card svg { width: 40px; height: 40px; fill: var(--primary); margin-bottom: 15px; }
+        .benefit-card h4 { color: var(--text-dark); margin-bottom: 10px; }
+        .benefit-card p { font-size: 0.95rem; margin: 0; }
+        .cta-section { background: var(--bg-light); padding: 50px 20px; text-align: center; }
+        .cta-section h2 { color: var(--text-dark); margin-bottom: 15px; }
+        .cta-section p { color: var(--text-light); margin-bottom: 25px; }
+        .cta-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: var(--white);
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        .btn-primary:hover { background: var(--primary-dark); }
+        .btn-whatsapp { background: #25D366; }
+        .btn-whatsapp:hover { background: #128C7E; }
+        .other-services { max-width: 900px; margin: 0 auto; padding: 50px 20px; }
+        .other-services h2 { color: var(--text-dark); text-align: center; margin-bottom: 30px; }
+        .services-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .service-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 20px;
+            background: var(--bg-light);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+        .service-link:hover { background: var(--primary); color: var(--white); }
+        .service-link svg { width: 16px; height: 16px; }
+        footer {
+            background: var(--primary);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        footer h3 { font-size: 1.3rem; margin-bottom: 10px; }
+        footer p { opacity: 0.9; margin: 8px 0; }
+        footer a { color: var(--white); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+        .floating-btn {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+        .floating-btn:hover { transform: scale(1.1); }
+        .floating-btn-phone { background: var(--primary); }
+        .floating-btn-whatsapp { background: #25D366; }
+        .floating-btn svg, .icon { width: 24px; height: 24px; }
+        @media (max-width: 768px) {
+            .service-hero h1 { font-size: 1.8rem; }
+            .content-section { padding: 30px 20px; }
+        }
+        @media (max-width: 480px) {
+            .site-header { padding: 8px 12px; }
+            .logo img { height: 40px; }
+            .header-phone { padding: 8px 14px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logotipo.svg" alt="DomiFisio Plasencia - Fisioterapia a Domicilio">
+            </a>
+            <a href="tel:+34622956851" class="header-phone">
+                <svg fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                622 956 851
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="service-hero">
+            <div class="breadcrumb">
+                <a href="index.html">Inicio</a> → Fisioterapia Manual
+            </div>
+            <h1>Fisioterapia Manual a Domicilio en Plasencia</h1>
+            <p>Masaje terapéutico, movilización articular y técnicas miofasciales para aliviar el dolor muscular y tratar contracturas en la comodidad de tu hogar</p>
+        </section>
+
+        <!-- Contenido Principal -->
+        <section class="content-section">
+            <h2>Terapia Manual a Domicilio en Plasencia</h2>
+            <p>La <strong>fisioterapia manual</strong> es una especialidad que utiliza técnicas realizadas con las manos del fisioterapeuta para tratar problemas musculoesqueléticos. Incluye movilizaciones articulares, manipulaciones, <strong>masaje terapéutico</strong> y técnicas de tejidos blandos.</p>
+            <p>En DomiFisio llevamos este <strong>tratamiento del dolor muscular a tu casa</strong> en Plasencia y alrededores, permitiéndote recibir atención profesional sin necesidad de desplazarte. Somos tu <strong>fisioterapeuta a domicilio en Plasencia</strong>.</p>
+
+            <h3>Técnicas de Terapia Manual que Aplicamos</h3>
+            <ul>
+                <li>Movilización articular para recuperar el rango de movimiento</li>
+                <li><strong>Masaje terapéutico</strong> y <strong>masaje descontracturante</strong> para aliviar tensiones</li>
+                <li>Técnicas miofasciales para liberar adherencias y <strong>tratar contracturas</strong></li>
+                <li>Estiramientos asistidos para mejorar la flexibilidad</li>
+                <li>Tratamiento del <strong>dolor de espalda</strong> y cervicales</li>
+            </ul>
+        </section>
+
+        <!-- Beneficios -->
+        <section class="content-section">
+            <h2>Ventajas del Masaje Terapéutico a Domicilio</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <svg viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V376c0-13.3-10.7-24-24-24H256c-13.3 0-24 10.7-24 24v96c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                    <h4>Comodidad Total</h4>
+                    <p>Recibe tu <strong>fisioterapia a domicilio</strong> sin desplazamientos</p>
+                </div>
+                <div class="benefit-card">
+                    <svg viewBox="0 0 512 512"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                    <h4>Horario Flexible</h4>
+                    <p>Adaptamos las sesiones de <strong>terapia manual</strong> a tu disponibilidad</p>
+                </div>
+                <div class="benefit-card">
+                    <svg viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-96 55.2C54 332.9 0 401.3 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7c0-81-54-149.4-128-171.1V362c27.6 7.1 48 32.2 48 62v40c0 8.8-7.2 16-16 16H336c-8.8 0-16-7.2-16-16s7.2-16 16-16V424c0-17.7-14.3-32-32-32s-32 14.3-32 32v24c8.8 0 16 7.2 16 16s-7.2 16-16 16H256c-8.8 0-16-7.2-16-16V424c0-29.8 20.4-54.9 48-62V311.2z"/></svg>
+                    <h4>Atención Personalizada</h4>
+                    <p>Tratamiento exclusivo centrado en tus necesidades</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Para quién -->
+        <section class="content-section">
+            <h2>¿Para quién es la Fisioterapia Manual a Domicilio?</h2>
+            <ul>
+                <li><strong>Personas mayores</strong> con dificultad de desplazamiento en Plasencia</li>
+                <li>Pacientes con <strong>dolor de espalda</strong>, cuello u hombros</li>
+            </ul>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <h2>Reserva tu Sesión de Fisioterapia Manual en Plasencia</h2>
+            <p>Contacta con nosotros y te atenderemos en tu domicilio en Plasencia y alrededores de Cáceres</p>
+            <div class="cta-buttons">
+                <a href="tel:+34622956851" class="btn-primary">
+                    <svg fill="currentColor" viewBox="0 0 20 20" width="20" height="20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+                    Llamar Ahora
+                </a>
+                <a href="https://wa.me/34622956851?text=Hola,%20quiero%20información%20sobre%20fisioterapia%20manual%20a%20domicilio%20en%20Plasencia" class="btn-primary btn-whatsapp">
+                    <svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Otros Servicios -->
+        <section class="other-services">
+            <h2>Otros Servicios de Fisioterapia a Domicilio</h2>
+            <div class="services-links">
+                <a href="rehabilitacion-movilidad-domicilio.html" class="service-link">
+                    <svg fill="currentColor" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    Rehabilitación de Movilidad
+                </a>
+                <a href="ejercicio-terapeutico-domicilio.html" class="service-link">
+                    <svg fill="currentColor" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    Ejercicio Terapéutico
+                </a>
+                <a href="entrenamiento-personal-domicilio.html" class="service-link">
+                    <svg fill="currentColor" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    Entrenamiento Personal
+                </a>
+                <a href="pilates-plasencia.html" class="service-link">
+                    <svg fill="currentColor" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>
+                    Clases de Pilates
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>DomiFisio Plasencia - Fisioterapia a Domicilio</h3>
+        <p>Terapia manual, rehabilitación, ejercicio terapéutico, entrenamiento personal y pilates en Plasencia</p>
+        <p>📞 <a href="tel:+34622956851">622 956 851</a></p>
+        <p style="margin-top: 15px; font-size: 0.9rem;">Fisioterapia a domicilio en: <strong>Plasencia</strong>, Valle del Jerte y alrededores de la provincia de Cáceres</p>
+        <p style="margin-top: 8px; font-size: 0.85rem; opacity: 0.9;">Fisioterapia Manual | Rehabilitación de Movilidad | Ejercicio Terapéutico | Entrenamiento Personal | Pilates</p>
+        <p style="margin-top: 20px; opacity: 0.7; font-size: 0.85rem;">© 2025 DomiFisio Plasencia. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px; font-size: 0.85rem;">
+            <a href="aviso-legal.html">Aviso Legal y Privacidad</a> |
+            <a href="condiciones-servicio.html">Condiciones del Servicio</a>
+        </p>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="tel:+34622956851" class="floating-btn" style="background-color: #a85442; color: #ffffff; border: 3px solid #ffffff;" aria-label="Llamar al 622 956 851">
+            <svg class="icon" style="fill: #ffffff;" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
+        </a>
+        <a href="https://wa.me/34622956851?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20las%20sesiones%20de%20fisioterapia%20manual%20a%20domicilio" class="floating-btn" style="background-color: #128C7E; color: #ffffff; border: 3px solid #ffffff;" aria-label="WhatsApp para Fisioterapia Manual">
+            <svg class="icon" style="fill: #ffffff;" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </a>
+    </div>
+
+    <!-- Script para ocultar header al bajar -->
+    <script>
+        let lastScroll = 0;
+        const header = document.querySelector('.site-header');
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= 0) { header.classList.remove('hidden'); return; }
+            if (currentScroll > lastScroll && currentScroll > 80) { header.classList.add('hidden'); }
+            else { header.classList.remove('hidden'); }
+            lastScroll = currentScroll;
+        });
+    </script>
+
+</body>
+</html>

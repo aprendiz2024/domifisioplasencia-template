@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aviso Legal y Política de Privacidad de DomiFisio Plasencia - Fisioterapia a domicilio">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Aviso Legal y Política de Privacidad | DomiFisio Plasencia</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #a85442;
+            --primary-dark: #8b4235;
+            --accent: #d4816f;
+            --text-dark: #2d2d2d;
+            --text-light: #666;
+            --bg-light: #faf8f6;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Main Content */
+        .legal-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .legal-content h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .last-updated {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--bg-light);
+        }
+
+        .legal-content h2 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-top: 50px;
+            margin-bottom: 20px;
+            padding-top: 30px;
+            border-top: 2px solid var(--bg-light);
+            font-weight: 700;
+        }
+
+        .legal-content h2:first-of-type {
+            border-top: none;
+            padding-top: 0;
+            margin-top: 30px;
+        }
+
+        .legal-content h3 {
+            font-size: 1.2rem;
+            color: var(--text-dark);
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .legal-content h4 {
+            font-size: 1.05rem;
+            color: var(--text-dark);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .legal-content p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .legal-content ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+
+        .legal-content li {
+            margin-bottom: 8px;
+        }
+
+        .legal-content strong {
+            color: var(--text-dark);
+        }
+
+        .highlight-box {
+            background: var(--bg-light);
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        .highlight-box p {
+            margin-bottom: 5px;
+        }
+
+        .highlight-box.info {
+            background: #e3f2fd;
+            border-left-color: #2196f3;
+        }
+
+        .legal-content a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .legal-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Table of contents */
+        .toc {
+            background: var(--bg-light);
+            padding: 25px 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc li {
+            margin-bottom: 8px;
+        }
+
+        .toc a {
+            color: var(--text-light);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            margin: 10px 0;
+        }
+
+        footer .footer-secondary {
+            color: rgba(255,255,255,0.85);
+        }
+
+        footer .footer-copyright {
+            color: rgba(255,255,255,0.75);
+        }
+
+        footer a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .legal-content h1 {
+                font-size: 1.8rem;
+            }
+
+            .legal-content h2 {
+                font-size: 1.3rem;
+            }
+
+            .legal-content h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">DomiFisio</a>
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor" style="vertical-align: middle;"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                Volver al inicio
+            </a>
+        </div>
+    </header>
+
+    <!-- Legal Content -->
+    <main class="legal-content">
+        <h1>Aviso Legal y Política de Privacidad</h1>
+        <p class="last-updated">Última actualización: Enero 2026</p>
+
+        <p>En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), del Reglamento (UE) 2016/679 (RGPD) y de la Ley Orgánica 3/2018 (LOPDGDD), se informa a los usuarios de los siguientes términos legales.</p>
+
+        <!-- Table of Contents -->
+        <nav class="toc">
+            <h3>Índice</h3>
+            <ul>
+                <li><a href="#identificacion">1. Datos identificativos del titular</a></li>
+                <li><a href="#objeto">2. Objeto y ámbito de aplicación</a></li>
+                <li><a href="#actividad">3. Actividad profesional</a></li>
+                <li><a href="#uso">4. Condiciones de uso</a></li>
+                <li><a href="#propiedad">5. Propiedad intelectual</a></li>
+                <li><a href="#responsabilidad">6. Exclusión de responsabilidad</a></li>
+                <li><a href="#privacidad">7. Política de privacidad</a></li>
+                <li><a href="#cookies">8. Política de cookies</a></li>
+                <li><a href="#legislacion">9. Legislación aplicable</a></li>
+                <li><a href="#sanitaria">10. Normativa sanitaria</a></li>
+                <li><a href="#reclamaciones">11. Reclamaciones</a></li>
+                <li><a href="#contacto">12. Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- 1. IDENTIFICACIÓN -->
+        <h2 id="identificacion">1. Datos identificativos del titular</h2>
+        
+        <div class="highlight-box">
+            <p><strong>Titular:</strong> Gonzalo Ortiz Crespo</p>
+            <p><strong>Teléfono:</strong> 622 956 851</p>
+            <p><strong>Actividad:</strong> Servicios de Fisioterapia a Domicilio</p>
+            <p><strong>Nº Colegiado:</strong> 1492</p>
+            <p><strong>Colegio Profesional:</strong> Colegio Oficial de Fisioterapeutas de Extremadura (COFEXT)</p>
+        </div>
+
+        <!-- 2. OBJETO -->
+        <h2 id="objeto">2. Objeto y ámbito de aplicación</h2>
+        <p>El presente documento regula el uso del sitio web <strong>domifisioplasencia.com</strong> (en adelante, "el sitio web"), del que es titular Gonzalo Ortiz.</p>
+        <p>La navegación por el sitio web atribuye la condición de usuario del mismo e implica la aceptación plena y sin reservas de todas las disposiciones incluidas en este Aviso Legal y Política de Privacidad.</p>
+
+        <!-- 3. ACTIVIDAD -->
+        <h2 id="actividad">3. Actividad profesional</h2>
+        <p>El titular de este sitio web es fisioterapeuta colegiado, habilitado para el ejercicio de la profesión conforme a la normativa vigente:</p>
+        <ul>
+            <li>Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias.</li>
+            <li>Decreto 157/2003 de la Junta de Extremadura por el que se regulan los Colegios Oficiales de Fisioterapeutas.</li>
+        </ul>
+        <p>Los servicios de fisioterapia se prestan a domicilio en Plasencia, Malpartida de Plasencia, Carcaboso, Galisteo, Valle del Jerte y municipios cercanos de la provincia de Cáceres.</p>
+
+        <!-- 4. CONDICIONES DE USO -->
+        <h2 id="uso">4. Condiciones de uso</h2>
+        <p>El usuario se compromete a utilizar el sitio web de conformidad con la ley, el presente documento y las buenas costumbres. El usuario se obliga a abstenerse de:</p>
+        <ul>
+            <li>Utilizar el sitio web con fines ilícitos o contrarios a lo establecido.</li>
+            <li>Realizar cualquier acción que cause daño o alteraciones en los contenidos del sitio web.</li>
+            <li>Introducir virus informáticos, archivos defectuosos o cualquier otro software que pueda causar daños.</li>
+            <li>Intentar acceder a áreas restringidas de los sistemas informáticos del titular.</li>
+        </ul>
+
+        <!-- 5. PROPIEDAD INTELECTUAL -->
+        <h2 id="propiedad">5. Propiedad intelectual e industrial</h2>
+        <p>Todos los contenidos del sitio web (textos, fotografías, gráficos, imágenes, iconos, diseño gráfico, códigos fuente, etc.) son propiedad intelectual del titular o de terceros que han autorizado su uso, sin que pueda entenderse cedido al usuario ningún derecho de explotación sobre los mismos.</p>
+        <p>Las marcas, nombres comerciales o signos distintivos que aparecen en el sitio web son propiedad del titular y están protegidos por la legislación vigente en materia de propiedad industrial.</p>
+        <p>Queda prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra actividad que se realice con los contenidos del sitio web sin la autorización expresa del titular.</p>
+
+        <!-- 6. EXCLUSIÓN DE RESPONSABILIDAD -->
+        <h2 id="responsabilidad">6. Exclusión de garantías y responsabilidad</h2>
+        <p>El titular no se hace responsable de:</p>
+        <ul>
+            <li>Los daños y perjuicios de cualquier naturaleza que pudieran derivarse de la falta de disponibilidad o continuidad del funcionamiento del sitio web.</li>
+            <li>Los contenidos y servicios de terceros a los que se pueda acceder a través de enlaces incluidos en el sitio web.</li>
+            <li>Los virus o programas maliciosos en los contenidos que puedan producir alteraciones en el sistema informático del usuario.</li>
+            <li>El uso ilícito, negligente, fraudulento o contrario al presente Aviso Legal que hagan los usuarios del sitio web.</li>
+        </ul>
+        <p>El titular se reserva el derecho a modificar los contenidos del sitio web sin previo aviso, así como a eliminar, limitar o impedir el acceso al mismo de manera temporal o definitiva.</p>
+
+        <!-- 7. POLÍTICA DE PRIVACIDAD -->
+        <h2 id="privacidad">7. Política de privacidad</h2>
+        
+        <h3>7.1. Responsable del tratamiento</h3>
+        <p>El responsable del tratamiento de los datos personales es Gonzalo Ortiz Crespo, con los datos de contacto indicados en el apartado 1.</p>
+
+        <h3>7.2. Finalidades del tratamiento</h3>
+        <p>Los datos personales que nos facilite a través de este sitio web o WhatsApp serán tratados únicamente para:</p>
+        <ul>
+            <li><strong>Gestión de citas:</strong> Programar y confirmar las sesiones de fisioterapia a domicilio.</li>
+            <li><strong>Comunicaciones:</strong> Contactar con usted para recordatorios de citas o responder a sus consultas.</li>
+        </ul>
+        
+        <div class="highlight-box info">
+            <p><strong>Importante:</strong> A través de este sitio web y WhatsApp NO se gestiona historia clínica, documentación médica ni facturación. Estos aspectos se tratan de forma presencial.</p>
+        </div>
+
+        <h3>7.3. Legitimación del tratamiento</h3>
+        <p>La base legal para el tratamiento de sus datos es:</p>
+        <ul>
+            <li><strong>Consentimiento:</strong> Al contactarnos voluntariamente por WhatsApp o teléfono para solicitar una cita.</li>
+            <li><strong>Ejecución de un contrato:</strong> La gestión de la cita es necesaria para la posterior prestación del servicio de fisioterapia.</li>
+        </ul>
+
+        <h3>7.4. Categorías de datos tratados</h3>
+        <p>A través de WhatsApp solo tratamos datos básicos para la gestión de citas:</p>
+        <ul>
+            <li><strong>Por WhatsApp:</strong> Nombre de pila, zona aproximada del domicilio y preferencia horaria.</li>
+            <li><strong>Por llamada telefónica:</strong> Nombre completo, dirección exacta y teléfono de contacto (para confirmar la cita).</li>
+        </ul>
+        <p><strong>NO solicitamos ni tratamos por medios digitales:</strong> datos de salud, informes médicos, diagnósticos, radiografías u otra documentación clínica.</p>
+
+        <h3>7.5. Conservación de los datos</h3>
+        <ul>
+            <li><strong>Mensajes de WhatsApp:</strong> Se eliminan una vez confirmada la cita.</li>
+            <li><strong>Datos de contacto:</strong> Mientras dure la relación profesional y hasta 2 años después para posibles comunicaciones de seguimiento.</li>
+        </ul>
+
+        <h3>7.6. Destinatarios de los datos</h3>
+        <p>Sus datos no serán cedidos a terceros. Los datos tratados por WhatsApp están sujetos a las políticas de Meta Platforms, Inc., propietaria del servicio.</p>
+        <p>No se realizan transferencias internacionales de datos por nuestra parte, si bien WhatsApp puede almacenar información en servidores fuera de la UE.</p>
+
+        <h3>7.7. Derechos del interesado</h3>
+        <p>Puede ejercer los siguientes derechos en relación con sus datos personales:</p>
+        <ul>
+            <li><strong>Acceso:</strong> Conocer qué datos personales tratamos sobre usted.</li>
+            <li><strong>Rectificación:</strong> Solicitar la corrección de datos inexactos o incompletos.</li>
+            <li><strong>Supresión:</strong> Solicitar la eliminación de sus datos cuando ya no sean necesarios.</li>
+            <li><strong>Oposición:</strong> Oponerse al tratamiento de sus datos en determinadas circunstancias.</li>
+            <li><strong>Limitación:</strong> Solicitar la limitación del tratamiento en ciertos casos.</li>
+            <li><strong>Portabilidad:</strong> Recibir sus datos en un formato estructurado y de uso común.</li>
+        </ul>
+        <p>Para ejercer estos derechos, puede contactar con nosotros llamando al 622 956 851.</p>
+        <p>Si considera que sus derechos no han sido debidamente atendidos, puede presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>).</p>
+
+        <h3>7.8. Comunicaciones por WhatsApp</h3>
+        <p>Utilizamos WhatsApp como canal de primer contacto. Le informamos de que:</p>
+        <ul>
+            <li>WhatsApp es un servicio de Meta Platforms, Inc. con sus propias políticas de privacidad.</li>
+            <li>Los mensajes pueden almacenarse en servidores fuera del Espacio Económico Europeo.</li>
+            <li><strong>No solicitamos ni debe enviar información clínica sensible</strong> (informes médicos, diagnósticos, radiografías) por este canal.</li>
+            <li>Los mensajes de WhatsApp se eliminan una vez confirmada la cita.</li>
+        </ul>
+
+        <!-- 8. COOKIES -->
+        <h2 id="cookies">8. Política de cookies</h2>
+        <p><strong>Este sitio web NO utiliza cookies</strong> de ningún tipo:</p>
+        <ul>
+            <li>No utilizamos cookies propias</li>
+            <li>No utilizamos cookies de terceros</li>
+            <li>No utilizamos cookies analíticas (Google Analytics)</li>
+            <li>No utilizamos cookies publicitarias</li>
+            <li>No utilizamos cookies de seguimiento o remarketing</li>
+        </ul>
+        <p>Por este motivo, no es necesario mostrar ningún banner de cookies al visitar nuestra web.</p>
+
+        <!-- 9. LEGISLACIÓN -->
+        <h2 id="legislacion">9. Legislación aplicable y jurisdicción</h2>
+        <p>Las relaciones entre el titular y el usuario se regirán por la legislación española vigente. Para cualquier controversia que pudiera derivarse del acceso o uso de este sitio web, las partes se someten a la jurisdicción de los Juzgados y Tribunales de Plasencia (Cáceres), con renuncia expresa a cualquier otro fuero que pudiera corresponderles.</p>
+
+        <!-- 10. NORMATIVA SANITARIA -->
+        <h2 id="sanitaria">10. Normativa sanitaria aplicable</h2>
+        <p>Los servicios de fisioterapia prestados se rigen por:</p>
+        <ul>
+            <li>Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente.</li>
+            <li>Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias.</li>
+            <li>Ley 14/1986, de 25 de abril, General de Sanidad.</li>
+            <li>Normativa autonómica de Extremadura en materia de sanidad.</li>
+            <li>Código Deontológico del Colegio de Fisioterapeutas.</li>
+        </ul>
+
+        <!-- 11. RECLAMACIONES -->
+        <h2 id="reclamaciones">11. Reclamaciones</h2>
+        <p>Para cualquier reclamación relacionada con los servicios de fisioterapia, puede dirigirse a:</p>
+        <ul>
+            <li><strong>Directamente al profesional:</strong> A través del teléfono indicado.</li>
+            <li><strong>Colegio Oficial de Fisioterapeutas de Extremadura:</strong> <a href="https://www.cofext.org" target="_blank" rel="noopener">www.cofext.org</a></li>
+            <li><strong>Servicio Extremeño de Salud:</strong> Para reclamaciones sanitarias.</li>
+        </ul>
+
+        <!-- 12. CONTACTO -->
+        <h2 id="contacto">12. Contacto</h2>
+        <p>Para cualquier consulta relacionada con este documento, puede contactar con nosotros:</p>
+        
+        <div class="highlight-box">
+            <p><strong>Teléfono:</strong> <a href="tel:+34622956851">622 956 851</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/34622956851">622 956 851</a></p>
+        </div>
+
+        <p style="margin-top: 40px; font-size: 0.9rem; color: var(--text-light);">El titular se reserva el derecho a modificar el presente documento para adaptarlo a novedades legislativas, jurisprudenciales o a la práctica empresarial. Cualquier modificación será publicada en esta página con la fecha de actualización correspondiente.</p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>DomiFisio Plasencia - Fisioterapia a Domicilio</h3>
+        <p>Terapia manual, rehabilitación, ejercicio terapéutico, entrenamiento personal y pilates en Plasencia</p>
+        <p>📞 <a href="tel:+34622956851">622 956 851</a></p>
+        <p class="footer-secondary" style="margin-top: 15px; font-size: 0.9rem;">Fisioterapia a domicilio en: <strong>Plasencia</strong>, Malpartida, Valle del Jerte y alrededores</p>
+        <p class="footer-copyright" style="margin-top: 20px; font-size: 0.85rem;">© 2025 DomiFisio Plasencia. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px; font-size: 0.85rem;"><a href="index.html">Volver al inicio</a> | <a href="condiciones-servicio.html">Condiciones del Servicio</a></p>
+    </footer>
+</body>
+</html>

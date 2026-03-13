@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Condiciones del Servicio de DomiFisio Plasencia - Fisioterapia a domicilio">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="https://domifisioplasencia.com/condiciones-servicio.html">
+    <title>Condiciones del Servicio | DomiFisio Plasencia</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #a85442;
+            --primary-dark: #8b4235;
+            --accent: #d4816f;
+            --text-dark: #2d2d2d;
+            --text-light: #666;
+            --bg-light: #faf8f6;
+            --white: #ffffff;
+            --whatsapp: #128C7E;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        /* Header */
+        .header {
+            background: var(--white);
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: var(--primary-dark);
+        }
+
+        /* Main Content */
+        .legal-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .legal-content h1 {
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .last-updated {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--bg-light);
+        }
+
+        .legal-content h2 {
+            font-size: 1.4rem;
+            color: var(--text-dark);
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .legal-content h3 {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .legal-content p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        .legal-content ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+            color: var(--text-light);
+        }
+
+        .legal-content li {
+            margin-bottom: 8px;
+        }
+
+        .legal-content strong {
+            color: var(--text-dark);
+        }
+
+        .highlight-box {
+            background: var(--bg-light);
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        .highlight-box p {
+            margin-bottom: 5px;
+        }
+
+        .highlight-box.warning {
+            background: #fff8e6;
+            border-left-color: #f0ad4e;
+        }
+
+        .highlight-box.success {
+            background: #e8f5e9;
+            border-left-color: #4caf50;
+        }
+
+        .legal-content a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .legal-content a:hover {
+            text-decoration: underline;
+        }
+
+        .icon-text {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .icon-text svg {
+            color: var(--primary);
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+
+        /* Contact Box */
+        .contact-box {
+            background: var(--primary);
+            color: var(--white);
+            padding: 30px;
+            border-radius: 16px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            color: var(--white);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .contact-box p {
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 20px;
+        }
+
+        .contact-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn-phone {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .contact-btn-whatsapp {
+            background: var(--whatsapp);
+            color: var(--white);
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .contact-btn svg {
+            width: 18px;
+            height: 18px;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        footer h3 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            margin: 10px 0;
+        }
+
+        footer .footer-secondary {
+            color: rgba(255,255,255,0.85);
+        }
+
+        footer .footer-copyright {
+            color: rgba(255,255,255,0.75);
+        }
+
+        footer a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .legal-content h1 {
+                font-size: 1.8rem;
+            }
+
+            .legal-content h2 {
+                font-size: 1.2rem;
+            }
+
+            .contact-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">DomiFisio</a>
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 448 512" fill="currentColor"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+                Volver al Inicio
+            </a>
+        </div>
+    </header>
+
+    <!-- Legal Content -->
+    <main class="legal-content">
+        <h1>Condiciones del Servicio</h1>
+        <p class="last-updated">Última actualización: Enero 2026</p>
+
+        <p>Gracias por confiar en DomiFisio Plasencia para tu recuperación y bienestar. A continuación te explicamos las condiciones que aplican a nuestro servicio de fisioterapia a domicilio.</p>
+
+        <h2>1. Descripción del servicio</h2>
+        <p>DomiFisio Plasencia ofrece servicios de fisioterapia profesional a domicilio en Plasencia y municipios cercanos de la provincia de Cáceres. El servicio incluye:</p>
+        <ul>
+            <li>Desplazamiento del fisioterapeuta a tu domicilio</li>
+            <li>Sesión de fisioterapia personalizada</li>
+        </ul>
+
+        <h2>2. Reserva de citas</h2>
+        <p>Para reservar una cita puedes contactarnos por:</p>
+        <div class="highlight-box">
+            <div class="icon-text">
+                <svg viewBox="0 0 512 512" fill="currentColor"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                <span><strong>Teléfono:</strong> <a href="tel:+34622956851">622 956 851</a></span>
+            </div>
+            <div class="icon-text">
+                <svg viewBox="0 0 448 512" fill="#128C7E"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                <span><strong>WhatsApp:</strong> <a href="https://wa.me/34622956851">622 956 851</a></span>
+            </div>
+        </div>
+        <p>La cita se considera confirmada una vez acordados la fecha, hora y dirección del domicilio.</p>
+
+        <h2>3. Política de cancelación</h2>
+        <p>Debido a la naturaleza de nuestro servicio —sesiones personalizadas con cita previa en tu domicilio— aplicamos la siguiente política:</p>
+
+        <div class="highlight-box success">
+            <p><strong>✓ Con 12 horas o más de antelación:</strong></p>
+            <p>Puedes cancelar o reprogramar tu cita sin ningún coste.</p>
+        </div>
+
+        <div class="highlight-box warning">
+            <p><strong>⚠ Con menos de 12 horas:</strong></p>
+            <p>La cita se considera realizada y no podrá recuperarse ni reembolsarse.</p>
+        </div>
+
+        <h3>¿Por qué esta política?</h3>
+        <p>Al tratarse de un servicio a domicilio, las cancelaciones tardías nos impiden atender a otros pacientes que podrían necesitar ese horario.</p>
+
+        <h2>4. Política de no reembolso</h2>
+        <p>En DomiFisio Plasencia <strong>no ofrecemos reembolsos</strong> una vez confirmada y/o realizada la sesión. Esto incluye:</p>
+        <ul>
+            <li>Sesiones ya realizadas</li>
+            <li>Citas canceladas con menos de 12 horas de antelación</li>
+        </ul>
+        <p>Si no puedes asistir a tu cita, avísanos con la mayor antelación posible para poder reprogramarla.</p>
+
+        <h2>5. Zona de cobertura</h2>
+        <p>Prestamos servicio a domicilio en:</p>
+        <ul>
+            <li>Plasencia</li>
+            <li>Valle del Jerte</li>
+            <li>Otros municipios cercanos de la provincia de Cáceres</li>
+        </ul>
+        <p>Si tienes dudas sobre si llegamos a tu localidad, consúltanos sin compromiso.</p>
+
+        <h2>6. Modificaciones</h2>
+        <p>Nos reservamos el derecho a modificar estas condiciones. Cualquier cambio será publicado en esta página con la fecha de actualización correspondiente.</p>
+
+        <h2>7. Legislación aplicable</h2>
+        <p>Estas condiciones se rigen por la legislación española. Para cualquier controversia, las partes se someten a los Juzgados y Tribunales de Plasencia (Cáceres).</p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h3>DomiFisio Plasencia - Fisioterapia a Domicilio</h3>
+        <p>Terapia manual, rehabilitación, ejercicio terapéutico en Plasencia y municipios cercanos</p>
+        <p>📞 <a href="tel:+34622956851">622 956 851</a></p>
+        <p class="footer-secondary" style="margin-top: 15px; font-size: 0.9rem;">Fisioterapia a domicilio en: <strong>Plasencia</strong>, Valle del Jerte y alrededores de la provincia de Cáceres</p>
+        <p class="footer-copyright" style="margin-top: 20px; font-size: 0.85rem;">© 2025 DomiFisio Plasencia. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px; font-size: 0.85rem;">
+            <a href="aviso-legal.html">Aviso Legal y Privacidad</a> |
+            <a href="condiciones-servicio.html">Condiciones del Servicio</a>
+        </p>
+    </footer>
+</body>
+</html>
