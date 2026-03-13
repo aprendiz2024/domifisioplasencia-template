@@ -1,6 +1,6 @@
 # DomiFisio Plasencia — Código fuente del sitio web y base de plantilla para servicios locales
 
-**Autoría:** Ascensión Márquez Gutiérrez — Consultora Web y Digital, Plasencia (Cáceres), España  
+**Autoría:** Ascensión Márquez Gutiérrez — Plasencia (Cáceres), España  
 **Fecha de desarrollo:** Octubre 2025 – Enero 2026  
 **Fecha de publicación en producción:** Enero 2026 (servidor Hostinger, domifisioplasencia.com)  
 **Fecha de publicación en este repositorio:** Marzo 2026  
@@ -31,7 +31,7 @@ Esta plantilla es la generalización y documentación pública de ese trabajo, p
 
 ### Evidencias de autoría disponibles
 
-- Conversaciones de desarrollo con IA fechadas desde **octubre 2025** (estrategia SEO, elección de dominio, diseño de landing page, integración WhatsApp Business, Google My Business, GeneratePress Premium, Google Search Console, etc.)
+- Historial de desarrollo documentado desde **octubre 2025** (estrategia SEO, elección de dominio, diseño de landing page, integración WhatsApp Business, Google My Business, GeneratePress Premium, Google Search Console, resolución de incidencias técnicas, etc.)
 - Historial de commits de este repositorio
 - Capturas del sitio en producción incluidas en la carpeta `/screenshots`
 - Archivos fuente originales del proyecto
@@ -107,7 +107,7 @@ domifisioplasencia-template/
 
 ---
 
-##  Qué incluye técnicamente
+## 🔧 Qué incluye técnicamente
 
 ### SEO Local avanzado
 - Schema.org JSON-LD completo: `LocalBusiness`, `Physiotherapy` (adaptable a `HairSalon`, `BeautySalon`, `SportsActivityLocation`, etc.)
@@ -170,7 +170,7 @@ Esta plantilla **no se vende como producto descargable**. Se ofrece como base pa
 
 Para solicitar adaptación de esta plantilla para tu negocio o proyecto:
 
-- **LinkedIn:** Ascensión Márquez Gutiérrez 
+- **LinkedIn:** Ascensión Márquez Gutiérrez — Consultora Web y Digital
 - **Ubicación:** Plasencia, Cáceres, Extremadura, España
 - **Especialidad:** Sitios web para negocios locales, emprendedores y proyectos sociales
 
@@ -182,4 +182,4 @@ El código, diseño y estructura de esta plantilla son obra original de su autor
 El sitio web de DomiFisio Plasencia fue el proyecto original sobre el que se desarrolló esta plantilla.  
 Todos los derechos reservados. Uso, copia o distribución sin autorización expresa está prohibida.
 
-© 2026 — Ascensión Márquez Gutiérrez, Plasencia, España
+© 2026 — Ascensión Márquez Gutiérrez- Plasencia (Cáceres) - España
